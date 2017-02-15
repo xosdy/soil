@@ -10,3 +10,7 @@ add_library(soil STATIC
     src/SOIL.c
 )
 
+install(DIRECTORY include/ DESTINATION include/)
+install(TARGETS soil
+    ARCHIVE DESTINATION lib
+)
