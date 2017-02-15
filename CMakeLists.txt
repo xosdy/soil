@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.6)
 project(soil)
 
-include_directories(inc)
+include_directories(include)
 
 add_library(soil STATIC
     src/image_helper.c
@@ -9,3 +9,4 @@ add_library(soil STATIC
     src/image_DXT.c
     src/SOIL.c
 )
+
